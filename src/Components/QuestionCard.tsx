@@ -42,7 +42,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                             )
                         })
                     }
-                    <input type="submit" />
+                    <input type="submit" className='submitBtnn' />
                 </form>
             </div>
         </div>
