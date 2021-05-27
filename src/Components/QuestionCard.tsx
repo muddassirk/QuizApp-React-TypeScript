@@ -1,10 +1,14 @@
 import React from 'react'
 import { questionPropsType } from '../types/quiz_types'
+import './QuestionCard.css'
 
 const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
     return (
-        <div className='ques-container'>
-            <div >
+        <div className='container'>
+            <div className='ques-container'>
+                <div className='head-container'>
+                    <h1>Quiz app</h1>
+                </div>
                 <div>
                     {question}
                 </div>
